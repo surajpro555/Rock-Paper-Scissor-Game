@@ -1,0 +1,52 @@
+*{
+    margin: 0.5%;
+    padding: 0%;
+}
+h3{
+    font-size:40px;
+    text-shadow: 2px 1px rgb(250, 57, 57);
+}
+#score{
+    position:relative;
+    font-family:cursive;
+    font-size: 35px;
+    text-shadow: 2px 1px rgb(0, 0, 0);
+    left: 3%;
+}
+#Rock,#Paper,#Scissor{
+    margin-top: 3%;
+    height: 80px;
+    font-size:50px;
+    border-radius:20px;
+    background-color: rgb(1, 174, 254);
+}
+#Rock,#Paper{
+    margin-right: 5%;
+}
+#Rock:hover,#Paper:hover,#Scissor:hover{
+    background-color:rgb(255, 90, 173);
+   box-shadow: 5px 2px rgb(57, 146, 146);
+}
+h2{
+    font-size:30px;
+    font-family: cursive;
+}
+h1{
+    font-size: 40px;
+    color: rgb(0, 94, 255);
+}
+#result{
+    margin-top: 1%;
+    font-size: 45px;
+    font-family:cursive;
+    color:rgb(251, 0, 0) ;
+}
+#emoji{
+    margin-top: 1%;
+    font-size: 80px;
+}
+#computer{
+    margin-top: 2%;
+    font-size: 60px;
+    font-family: cursive;
+}
